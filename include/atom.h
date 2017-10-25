@@ -1,5 +1,5 @@
-#ifndef _POSINIT_H_
-#define _POSINIT_H_
+#ifndef _ATOM_H_
+#define _ATOM_H_
 
 /* 規定値 */
 #define kb 8.617330350e-5
