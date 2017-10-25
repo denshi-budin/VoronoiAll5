@@ -27,7 +27,7 @@ void writeSample(position_t data[], int sumVnum, const char *nmF){
 	fsetpos(fw, &positionf);
 	fprintf(fw, "%d", sampleSum);
 	fclose(fw);
-	printf("%sの原子数 : %d\n", nmF, sampleSum);
+	printf("Number of atoms in %s: %d\n", nmF, sampleSum);
 }
 
 void writeLammps(mpoint_t mpoint[], int sumVnum){
@@ -147,9 +147,9 @@ void writeFile(mpoint_t mpoint[], dpoint_t datapoint[]){
 		if (!inSide(mpoint[i].pos, latorigin, latticeLength)) continue;
 		totalVor += mpoint[i].voronoiNum;
 	}
-	printf("予想原子数 : %d\n", N);
-	printf("全原子数：%d\n", totalVor);
-	printf("%d粒径平均サイズ：%g\n", pointVor, avgsizeV/ao);
+	printf("Expected number of atoms: %d\n", N);
+	printf("Total number of atoms: %d\n", totalVor);
+	printf("Average from %d grains size: %g\n", pointVor, avgsizeV/ao);
 
 	writePoint(mpoint, datapoint);
 	writeVoronoi(mpoint, datapoint, totalVor);
