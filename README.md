@@ -3,17 +3,26 @@ Creating 3D Voronoi tessellations specimens for molecular dynamic simulation.
 
 Work with Windows(cygwin), Mac and Linux (ubuntu).
 
-To compile just type:
+## Getting Started
+
+* To compile just type:
 ```
 make voronoi
 ```
+* Edit Configuration File (Configuration.cfg):
+```
+Lattice : (Diamond, Fcc, Hcp, Bcc)
+Scale: (lattice scale)
+Element: (Element symbol. e.g: Si, Cu, etc)
+Mass: (Element mass)
+```
 
-To use:
+* Running :
 ```
 ./voronoi [(optianal) Random Seed]
 ```
 
-## Output files 
+### Output files 
 
 Output files can be found in output folder:
 
