@@ -1,6 +1,3 @@
-#ifndef TIMER_H
-#define TIMER_H
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "atom.h"
