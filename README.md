@@ -12,7 +12,7 @@ make voronoi
 * Edit Configuration File (Configuration.cfg):
 ```
 Lattice : (Diamond, Fcc, Hcp, Bcc)
-Scale: (lattice scale)
+Scale: (lattice scale in Angstrom)
 Element: (Element symbol. e.g: Si, Cu, etc)
 Mass: (Element mass)
 ```
