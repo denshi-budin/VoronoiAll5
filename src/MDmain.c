@@ -70,8 +70,8 @@ int main(int argc, char *argv[])
 
     relocate(mpoint);
     //checkrange(mpoint);
-	writeFile(mpoint, datapoint);
+    writeFile(mpoint, datapoint);
     printf("Time taken: ");
     PrintTimer(GetTimer());
-	return 0;
+    return 0;
 }
