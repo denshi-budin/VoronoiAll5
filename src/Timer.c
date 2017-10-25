@@ -68,5 +68,3 @@ void PrintTimer(double timer)
     }
     else printf("%g Seconds\n", timer);
 }
-
-#endif // TIMER_H
