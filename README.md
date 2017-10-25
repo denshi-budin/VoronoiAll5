@@ -4,9 +4,18 @@ Creating 3D Voronoi tessellations specimens for molecular dynamic simulation.
 Work with Windows(cygwin), Mac and Linux (ubuntu).
 
 To compile just type:
-  make voronoi
+```
+make voronoi
+```
 
-Output files in output folder:
+To use:
+```
+./voronoi [(optianal) Random Seed]
+```
+
+## Output files 
+
+Output files can be found in output folder:
 
 ~in.mddata ; specimen's data format for LAMMPS
 
