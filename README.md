@@ -22,10 +22,14 @@ Mass: (Element mass)
 ./voronoi [(optianal) Random Seed]
 ```
 
-### Output files 
+## Output files 
 
 Output files can be found in output folder:
 
 ~in.mddata ; specimen's data format for LAMMPS
 
 sample.xyz ; specimen's data format in xyz
+
+## Authors
+
+* **Ahmad Ehsan Mohd Tamidi** - *Initial work*
